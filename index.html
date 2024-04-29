@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style type="text/css">
+        td{
+            font-size: 20px;
+            color: black;
+        }
+        input,textarea,select{
+            font-size: 15px;
+            padding: 6px;
+            border-radius: 3px;
+        }
+         table{
+            background-color: blueviolet;
+        } 
+        body{
+            background-color: lightpink;
+            /* background-image: url(Tom&Jerry.jpg); */
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table width="700px" border="1" bordercolor="white" align="center" cellpadding="5px">
+            <tr>
+                <td>User Name:</td>
+                <td><input type="text" placeholder="Enter User Name"></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="text" password placeholder="Enter User Name"></td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td><textarea rows="5" cols="21"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2">what is ur favorite color?</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Blue:<input type="checkbox">
+                    &nbsp&nbsp&nbsp&nbsp&nbsp
+                    violet:<input type="checkbox">
+                    &nbsp&nbsp&nbsp&nbsp&nbsp
+                    Green:<input type="checkbox">
+                    &nbsp&nbsp&nbsp&nbsp&nbsp
+                    Pink:<input type="checkbox">
+                    
+                    
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">who will win the 2056 World cup?</td>
+
+
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Ind:<input type="radio" name="a1">
+                    &nbsp&nbsp&nbsp&nbsp&nbsp
+                    Pak:<input type="radio" name="a1">
+                    &nbsp&nbsp&nbsp&nbsp&nbsp
+                    Aus:<input type="radio" name="a1">
+                    &nbsp&nbsp&nbsp&nbsp&nbsp
+                    wesben:<input type="radio" name="a1">
+                </td>
+            </tr>
+            <tr>
+                <td>Course</td>
+                <td>
+                    <select>
+                        <option>----select----</option>
+                        <option>HTML</option>
+                        <option>C++</option>
+                        <option>Data Structures</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="file">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="submit">
+                    <input type="reset" value="reset">
+                    <input type="button" value="home">
+                </td>
+            </tr>
+        </table>
+
+    </form>
+    
+</body>
+</html>
